@@ -1,0 +1,65 @@
+/***********************************************************Foooter******************************/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+/*For Copyright section*/
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: crimson;
+    text-align: center;
+    color: #fff;
+}
+
+.foothead {
+    margin: 10px;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.email-foot {
+    margin: 10px;
+    font-size: 40px;
+    margin-top: -12px;
+}
+
+.address {
+    margin: 5px;
+    font-size: 20px;
+    margin-top: 33px;
+    margin-bottom: 20px;
+}
+
+.nav-foot>a {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 19px;
+    transition: all 0.3s ease;
+}
+.nav-foot>a:hover{
+    font-size: 30px;
+}
+
+.follow-foot>a>i {
+    margin: 10px;
+    font-size: 30px;
+    margin-top: 25px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.follow-foot>a>i:hover{
+    font-size: 50px;
+    
+}
+
+.last {
+    margin: 10px;
+}
+.last>span{
+    font-family: 'Major Mono Display', monospace;
+}
